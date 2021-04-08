@@ -1,5 +1,5 @@
-use serde::{Serialize, Deserialize};
 use crate::DeviceType;
+use serde::{Deserialize, Serialize};
 
 /// "identity" packet.
 #[derive(Clone, Debug, PartialEq, Eq, Serialize, Deserialize)]
@@ -42,4 +42,3 @@ fn device_name() -> String {
         Err(_) => String::from("fallback"),
     }
 }
-

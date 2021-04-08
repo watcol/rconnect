@@ -1,4 +1,4 @@
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 
 #[cfg(any(target_os = "ios", target_os = "android"))]
 static DEVICE_TYPE: DeviceType = DeviceType::Phone;
@@ -21,5 +21,4 @@ impl Default for DeviceType {
     fn default() -> Self {
         DEVICE_TYPE
     }
-
 }

@@ -2,7 +2,7 @@ mod identity;
 
 pub use identity::Identity;
 
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 use serde_json::Value as JsonValue;
 
 static PROTOCOL_VERSION: u8 = 7;
