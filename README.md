@@ -18,6 +18,9 @@ rconnect = "0.1.0"
 ## Documents
 API Documents are available on [docs.rs](https://docs.rs/rconnect).
 
+## Interfaces
+A CLI interface is available on [rconnect-cli](https://github.com/watcol/rconnect/blob/main/rconnect-cli).
+
 ## Author
 - ![watcol](https://raw.githubusercontent.com/watcol/icons/main/32/normal.png) Watcol <<potfman@gmail.com>>
 
